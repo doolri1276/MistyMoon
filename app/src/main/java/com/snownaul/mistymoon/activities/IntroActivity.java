@@ -7,6 +7,8 @@ import com.snownaul.mistymoon.R;
 
 public class IntroActivity extends AppCompatActivity {
 
+    //aaaalfjejfjwaeofjawofjoewfjwe
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

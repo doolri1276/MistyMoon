@@ -20,6 +20,7 @@ public class BaseTool {
     public static String getFcmToken() {
         if (fcmToken==null||fcmToken.equals("null")||fcmToken.isEmpty()) {
             fcmToken = FirebaseInstanceId.getInstance().getToken();
+            SharedPreferenceManager.putString(SharedPreferenceManager.FCM,fcmToken);
         }
         return fcmToken;
     }
@@ -34,6 +35,7 @@ public class BaseTool {
 
             if (uuid==null||uuid.isEmpty()) {
                 uuid= Settings.Secure.getString(App.getContext().getContentResolver(), Settings.Secure.ANDROID_ID);
+                SharedPreferenceManager.putString(SharedPreferenceManager.UUID,uuid);
             }
         }
 

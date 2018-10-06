@@ -8,6 +8,7 @@ public class SharedPreferenceManager {
     public static String PREF="pref";
 
     public static String UUID="uuid";
+    public static String FCM = "fcm";
 
     public static String getString(String key){
         final SharedPreferences prefs = App.getContext().getSharedPreferences(PREF,Context.MODE_PRIVATE);

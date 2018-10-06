@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1028946808358",
+    "firebase_url": "https://mistymoon-fbb6c.firebaseio.com",
+    "project_id": "mistymoon-fbb6c",
+    "storage_bucket": "mistymoon-fbb6c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1028946808358:android:2ed2c419ff54dbe6",
+        "android_client_info": {
+          "package_name": "com.snownaul.mistymoon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1028946808358-3431n132s8aaculfsemoparbov0f23so.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.snownaul.mistymoon",
+            "certificate_hash": "91484da6bc21be94f2e583b0894b5fa2e5645bb7"
+          }
+        },
+        {
+          "client_id": "1028946808358-pfqjo4un629r67n3cv9u1hsl1au3dbjh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAr3RijEoAjSVVzMYDI34c8ZASpx6g5P2s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1028946808358-pfqjo4un629r67n3cv9u1hsl1au3dbjh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

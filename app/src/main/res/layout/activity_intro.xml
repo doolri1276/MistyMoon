@@ -12,13 +12,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="로그인 이동"
-        android:onClick="goToLoginActivity()"/>
+        android:onClick="goToLoginActivity"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="메인 이동"
-        android:onClick="goToMainActivity()"/>
+        android:onClick="goToMainActivity"/>
 
 
 </LinearLayout>

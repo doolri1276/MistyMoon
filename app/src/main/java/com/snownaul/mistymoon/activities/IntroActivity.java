@@ -2,13 +2,16 @@ package com.snownaul.mistymoon.activities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 
+import com.google.firebase.iid.FirebaseInstanceId;
 import com.snownaul.mistymoon.R;
+import com.snownaul.mistymoon.tools.BaseTool;
 import com.snownaul.mistymoon.tools.MovingTool;
 
 public class IntroActivity extends AppCompatActivity {
 
-    //aaaalfjejfjwaeofjawofjoewfjwe
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,18 +49,23 @@ public class IntroActivity extends AppCompatActivity {
     * */
     private void doSnsLogin(){
 
+        String fcmToken = BaseTool.getFcmToken();
+        String uuid = BaseTool.getUuid();
 
+        BaseTool.log("fcmData","fcm : ["+fcmToken+"], uuid : ["+uuid+"]");
 
     }
+
+
 
     /*
     * 자동 로그인 실패시 이동하는 곳
     * */
-    private void goToLoginActivity(){
+    public void goToLoginActivity(View v){
         MovingTool.goToLoginActivity();
     }
 
-    private void goToMainActivity(){
+    public void goToMainActivity(View v){
         MovingTool.goToMainActivity();
     }
 }

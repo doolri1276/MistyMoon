@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">MistyMoon</string>
+
+    <!--Facebook Login-->
+
+    <string name="facebook_app_id">889870864736268</string>
+    <string name="fb_login_protocol_scheme">fb889870864736268</string>
+
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
 </resources>
